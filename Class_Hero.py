@@ -28,6 +28,11 @@ hero = SuperHero("Wade Wilson", "Deadpool", "regeneration", 200, "It's time for 
 print(hero.display_name())
 print(f"Health points before: {hero.health_points}")
 hero.double_health()
+
+
+
+
+
 print(f"Health points after doubling: {hero.health_points}")
 print(str(hero))
 print(f"Catchphrase length: {len(hero)}")
