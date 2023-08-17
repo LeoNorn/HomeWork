@@ -21,25 +21,15 @@ class SuperHero:
         return len(self.catchphrase)
 
 
-
 hero = SuperHero("Wade Wilson", "Deadpool", "regeneration", 200, "It's time for me to run, fix my face and... kill the bad guys!")
 
 
 print(hero.display_name())
 print(f"Health points before: {hero.health_points}")
 hero.double_health()
-
-
-
-
-
-
-
-
 print(f"Health points after doubling: {hero.health_points}")
 print(str(hero))
 print(f"Catchphrase length: {len(hero)}")
-
 
 class AirHero(SuperHero):
     def __init__(self, name, nickname, superpower, health_points, catchphrase, damage, fly=False):
@@ -72,7 +62,6 @@ space_hero=SpaceHero(name='Carol Danvers',nickname='Captain Marvel',superpower='
                      health_points=500, catchphrase='Higher, further, faster',damage=200)
 class Villain(SpaceHero):
     people = 'monster'
-
     def gen_x(self):...
 
     def crit(self, damage):
