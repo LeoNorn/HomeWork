@@ -1,8 +1,3 @@
 venv
-git
-main.py
-reg.txt
-create .gitignore
-        .idea
-        __pycache__/
-.gitignore
+.idea
+__pycache__/
