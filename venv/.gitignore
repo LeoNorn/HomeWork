@@ -1,8 +1,0 @@
-
-create .gitignore
-        .idea
-        __pycache__/
-reg.txt
-main.py
-git
-main.py
