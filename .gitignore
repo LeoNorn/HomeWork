@@ -1,5 +1,7 @@
 venv
 git
 main.py
-main.py
 reg.txt
+create .gitignore
+        .idea
+        __pycache__/
