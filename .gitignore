@@ -5,3 +5,4 @@ reg.txt
 create .gitignore
         .idea
         __pycache__/
+.gitignore
